@@ -1,0 +1,2 @@
+# QuantumOnometricNeurofrequencyAnalyzer
+проэкт пиздюков
