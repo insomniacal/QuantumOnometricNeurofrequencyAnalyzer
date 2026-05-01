@@ -3,18 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>prototype of good web</title>
+    <style>
+        form { display: flex; flex-direction: column; width: 300px; gap: 10px; }
+        label { font-weight: bold; }
+    </style>
 </head>
 <body>
-    <h1>QuantumOnometricNeurofrequencyAnalyzer "info"</h1>
-    <h2>this is the form of program for speaking with face to face</h2>
-    <div>
-    <strong>for first we need you name and age</strong>
-    <input type="text" placeholder="enter your name here">
-    <input type="number" placeholder="enter your age here">
-    <button>submit</button>
-    </div>
-    <img src="/home/dzigocu/QuantumOnometricNeurofrequencyAnalyzer/1670967607_grizly-club-p-billi-kherrington-png-32.jpg" alt=""
-    ><div>акорд лапочка</div>
+<div class="registration-container">
+    <h1><strong>QuantumOnometricNeurofrequencyAnalyzer</strong></h1>
+    <h2>регистрация ыыыыыы</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">как тебя обозвали?:</label>
+            <input type="text" id="name" name="username" placeholder="Введите имя" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age">возраст сюда сучка:</label>
+            <input type="number" id="age" name="userage" min="1" max="120" required>
+        </div>
+
+        <div class="form-group">
+            <label for="pass">сюда пароль епта</label>
+            <input type="password" id="pass" name="password" required>
+        </div>
+
+        <button type="submit">реген епта</button>
+    </form>
+</div>
 </body>
 </html>
