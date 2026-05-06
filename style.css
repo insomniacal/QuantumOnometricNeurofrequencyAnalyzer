@@ -1,0 +1,52 @@
+<<<<<<< HEAD
+=======
+.suka {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    text-shadow: -1px -1px 0 black,
+                 1px 1px 0 black,
+                 -1px -1px 0 black,
+                 1px -1px 0 black;
+    color:rgba(255, 0, 0, 0.897);
+}
+
+.proba{
+    width: 150px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align:center;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(4, 28, 243);
+}
+
+.proba:hover{
+    background-color:rgb(234, 250, 4)
+}
+
+.regatsa{
+    width: 5x;
+    gap: 0px;
+    color:rgb(243, 6, 26);
+    margin-left: 500px;
+    margin-top: 10px;
+    text-shadow: 
+            -1px -1px 0 black,
+            1px 1px 0 black,
+            -1px -1px 0 black,
+            1px -1px 0 black;
+}
+
+body{
+    background-image: url("https://d1rldr9jdodfaa.cloudfront.net/images/01KMN80PGQFQCBCPF1ZF1R0A61/9fefd5a4-7c03-4678-a126-f2fe131b1cbd_1774534547.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+>>>>>>> 67c542b7cf9aa7624ce32ae647fc0aaa1aac21c2
