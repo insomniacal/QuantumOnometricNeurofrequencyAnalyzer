@@ -101,7 +101,5 @@ button:hover {
 
 body{
     background-image: url("https://d1rldr9jdodfaa.cloudfront.net/images/01KMN80PGQFQCBCPF1ZF1R0A61/9fefd5a4-7c03-4678-a126-f2fe131b1cbd_1774534547.webp");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-position: 100% 15%;
 }
