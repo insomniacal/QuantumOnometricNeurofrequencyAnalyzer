@@ -12,10 +12,8 @@ button{
     font-weight: 600;
     padding: 10px;
     cursor: pointer;
-    transition: background-color .2s linear;
+    transition: 0.2s linear;
 }
-button:hover {
-    background-color:rgb(0, 131, 255);}
  
  .list {  border: 2px solid purple;
     border-radius: 10px; 
@@ -103,3 +101,7 @@ body{
     background-image: url("https://d1rldr9jdodfaa.cloudfront.net/images/01KMN80PGQFQCBCPF1ZF1R0A61/9fefd5a4-7c03-4678-a126-f2fe131b1cbd_1774534547.webp");
     background-position: 100% 15%;
 }
+
+
+button:hover {
+    background-color:rgb(0, 131, 255);}

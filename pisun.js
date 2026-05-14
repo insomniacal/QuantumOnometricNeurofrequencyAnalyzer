@@ -1,3 +1,10 @@
+const boxik = document.getElementById("boxik");
+
+boxik.addEventListener("click", () => {
+  boxik.textContent = "я уже красный кульутно к сожалению не получится";
+  boxik.style.backgroundColor = "rgb(255,0,0)"});
+
+
 const knopka = document.getElementById("knopka");
 
 knopka.addEventListener("click", ()  => {
@@ -17,3 +24,4 @@ hui.addEventListener("click", () => {
 function startQuestionnaire(questionnaire) {
   list.textContent = questionnaire;
 }
+
