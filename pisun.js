@@ -24,4 +24,3 @@ hui.addEventListener("click", () => {
 function startQuestionnaire(questionnaire) {
   list.textContent = questionnaire;
 }
-
