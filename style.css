@@ -38,7 +38,9 @@ button{
   
   background-color: #f0f0f0;
   text-align: center;
+  transition: background-size .2s linear;
   }
+.list:hover {background-size: 100%;}
   .hui { border: 2px solid purple;
     border-radius: 10px; 
     background-color: aqua;
