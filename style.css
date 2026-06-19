@@ -100,7 +100,7 @@ button{
 }
 
 body{
-    background-image: url("https://d1rldr9jdodfaa.cloudfront.net/images/01KMN80PGQFQCBCPF1ZF1R0A61/9fefd5a4-7c03-4678-a126-f2fe131b1cbd_1774534547.webp");
+    background-image: url("d1rldr9jdodfaa.cloudfront.net/images/01KMN80PGQFQCBCPF1ZF1R0A61/9fefd5a4-7c03-4678-a126-f2fe131b1cbd_1774534547.webp");
     background-position: 100% 15%;
 }
 
@@ -123,3 +123,58 @@ button:hover {
     text-transform: uppercase;
 
 }
+#test{
+    position: fixed;
+    inset: 0;
+
+    display: none;
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0,0,0,0.7);
+
+    z-index: 9999;
+}
+
+.test-window{
+    width: 33vw;
+    min-width: 350px;
+
+    background: white;
+
+    border: 4px solid purple;
+    border-radius: 20px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 0 30px black;
+}
+
+.test-image{
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+.answer-buttons{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+body{
+    background-image: url("d1rldr9jdodfaa.cloudfront.net/...");}
+    .outp{
+    height: 100 px;  /* убери пробел → 100px */}
